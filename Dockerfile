@@ -1,4 +1,4 @@
-FROM arm64v8/php:7.4.18-apache
+FROM armv7/php:7.4.18-apache
 
 ENV FR_DB_HOST=db \
     FR_DB_PORT=3306 \
